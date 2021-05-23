@@ -1,5 +1,4 @@
 #include "algorithm.hpp"
-#include <iostream>
 
 // файл с определениями
 
