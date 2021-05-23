@@ -19,7 +19,7 @@ int main() {
     const string test_data_name = "data";
     path += test_data_name;
 
-    long int count_top[] = {10, 50, 100, 500, 1000};
+    long int count_top[] = {100, 2500, 10000, 250000, 1000000};
     const int SETS_NUMBER = 5;
     const int FILE_NUMBER = 10;
     for (int set_n = 0; set_n < SETS_NUMBER; set_n++) {
