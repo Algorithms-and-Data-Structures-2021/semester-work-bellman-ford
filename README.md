@@ -50,35 +50,26 @@
   ```shell
   git clone https://github.com/Algorithms-and-Data-Structures-2021/semester-work-bellman-ford.git
   ```
-    ![picture](img/git_clone.png)
+    ![picture](img/git_clone_1.png)
 - 2 способ:
   - Откройте проект в [CLion](https://www.jetbrains.com/ru-ru/clion/), используя URL:
   ```shell
   https://github.com/Algorithms-and-Data-Structures-2021/semester-work-bellman-ford.git
   ```
-    ![picture](img/path_to_project2.png)
+    ![picture](img/git_clone_2.png)
 
 #### Генерация тестовых данных
 
 Генерация тестового набора данных в
 формате [Text file(TXT)](https://en.wikipedia.org/wiki/Text_file):
 
-
-Генерация тестового набора данных в
-формате [Text file(TXT)](https://en.wikipedia.org/wiki/Text_file):
-
 - Процесс генерации тестовых данных:
-  - откройте проект в [CLion](https://www.jetbrains.com/ru-ru/clion/)  
-  - перейдите в dataset и откройте **generate_csv_dataset.cpp**  
-  ![picture](img/open_generater.png)
-  - определите путь до проекта  
-  ![picture](img/path_to_project.png)
-  - пропишите максимальное значение элементов(по желанию)  
-  ![picture](img/max_rand.png)
-  - запустите **generate_csv_dataset.cpp**  
-  ![picture](img/run_generater.png)
+  - откройте командную строку(на windows - клавиши *Win+R* и в появившемся окне введите *cmd* после чего нажмите Enter )
+  - перейдите в dataset (cd <путь к проекту>\dataset) 
+  ![picture](img/path_to_dataset.png)
+  - пропишите **python generate_txt_dataset.py** (python3 generate_txt_dataset.py) и нажмите *Enter*
+  ![picture](img/run_generation.png)
   - подождите пока сгенерируются все данные  
-  ![picture](img/finish_generation.png)
 
 Тестовые данные представлены в TXT формате (см.
 [`dataset/data/dataset-example.txt`](dataset/data/dataset-example.txt)):
@@ -116,7 +107,7 @@ dataset/data/
   - определите путь до проекта  
   ![picture](img/path_to_project.png) 
   - запустите **benchmark.cpp**  
-  ![picture](img/run_demo_benchmark.png)
+  ![picture](img/run_benchmark.png)
   - подождите пока тест пройдут все данные  
   ![picture](img/finish_benchmark.png)
 
