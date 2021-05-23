@@ -1,4 +1,5 @@
 #include "algorithm.hpp"
+#include <climits>
 
 // файл с определениями
 
