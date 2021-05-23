@@ -16,10 +16,10 @@ if __name__ == "__main__":
     top_n = 0
 
     for inside_folder in count_top:
-        mkdir(path + "\\" + str(inside_folder))
+        mkdir(path + "\\" + str(inside_folder*inside_folder))
 
         for graph in range(1, COUNT_GRAPHS + 1):
-            file = open(path + "\\" + str(inside_folder) + "\\" + str(graph) + ".txt", "w", newline="")
+            file = open(path + "\\" + str(inside_folder*inside_folder) + "\\" + str(graph) + ".txt", "w", newline="")
 
             with file:
                 top_number = count_top[top_n]
@@ -31,6 +31,6 @@ if __name__ == "__main__":
                     file.write("\n")
 
         top_n += 1
-        print(inside_folder, " generated")
+        print(inside_folder*inside_folder, " generated")
 
     print("DONE!")

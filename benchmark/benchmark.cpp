@@ -15,7 +15,7 @@ static constexpr auto kDatasetPath = string_view{PROJECT_DATASET_DIR};
 static constexpr auto kProjectPath = string_view{PROJECT_SOURCE_DIR};
 
 int main() {
-    string path = "C:\\Users\\4aspe\\Desktop\\working\\semester-work-bellman-ford\\dataset\\";
+    string path = "C:\\Users\\username\\acd_projects\\semester-work-bellman-ford\\dataset\\";
     const string test_data_name = "data";
     path += test_data_name;
 
